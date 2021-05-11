@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+@import url("../css/header.css");
+@import url("../css/other-block.css");
+@import url("../css/upper.css");
+@import url("../css/description.css");
+@import url("../css/footer.css");
+@import url("../css/inner.css");
+@import url("../css/info-block.css");
+
+*{
+    list-style-type: none;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 1440px;
+  height: 11082px;
+}
+
+main{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    width: 1440px;
+    height: 11082px;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  background: none;
+  border: none;
+  outline: none;
+}
+
